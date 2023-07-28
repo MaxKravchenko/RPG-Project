@@ -1,6 +1,9 @@
+using RPG.Movement;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+namespace RPG.Control
+{
+    public class PlayerController : MonoBehaviour {
 
     private void Update() 
     {
@@ -22,4 +25,5 @@ public class PlayerController : MonoBehaviour {
         }
     }
     
+}
 }
