@@ -2343,7 +2343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8935581388102576991, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: weaponRage
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
