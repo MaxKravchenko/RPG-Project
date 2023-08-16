@@ -10,17 +10,18 @@ namespace RPG.Control
 
         private void Update() 
         {
-            GameObject player = GameObject.FindWithTag("Player");
-            if (GetIsChase(player))
+            
+            if (DistanceToPlayer() < chaseDistance)
             {
-                Debug.Log(transform.name + " shoud chase Player");
+                print(gameObject.name + " shoud chase");
             }
             
         }
 
-        private bool GetIsChase(GameObject target)
+        private float DistanceToPlayer()
         {
-            return Vector3.Distance(transform.position, target.transform.position) <= chaseDistance;
+            GameObject player = GameObject.FindWithTag("Player");
+            return Vector3.Distance(player.transform.position, transform.position);
         }
     }
 }
