@@ -1443,6 +1443,10 @@ PrefabInstance:
       propertyPath: healthPoints
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3946340028582447616, guid: 0a1dd30b7e4badb44a95ffa35fb93cab, type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1666,6 +1670,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1507333948920432362, guid: b6a0c2d5e25c01f43a0e40f8bb378f94, type: 3}
+      propertyPath: m_Speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3007084730732242776, guid: b6a0c2d5e25c01f43a0e40f8bb378f94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6037512
@@ -1676,7 +1684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3007084730732242776, guid: b6a0c2d5e25c01f43a0e40f8bb378f94, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.90528965
+      value: -4.73
       objectReference: {fileID: 0}
     - target: {fileID: 3007084730732242776, guid: b6a0c2d5e25c01f43a0e40f8bb378f94, type: 3}
       propertyPath: m_LocalRotation.w

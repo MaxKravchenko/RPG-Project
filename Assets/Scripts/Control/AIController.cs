@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using RPG.Combat;
 using UnityEngine;
 
 namespace RPG.Control
@@ -10,10 +11,25 @@ namespace RPG.Control
 
         private void Update() 
         {
+            if (GetComponent<Health>().IsDead())
+            {
+                GetComponent<Fighter>().Cancel();
+                return;
+            }
+
+            
+            GameObject player = GameObject.FindWithTag("Player");
+            if(player == null) return;
             
             if (DistanceToPlayer() < chaseDistance)
+            {   
+                if (!GetComponent<Fighter>().CanAttack(player.gameObject)) return;
+
+                GetComponent<Fighter>().Attack(player.gameObject);
+            }
+            else
             {
-                print(gameObject.name + " shoud chase");
+                GetComponent<Fighter>().Cancel();
             }
             
         }
