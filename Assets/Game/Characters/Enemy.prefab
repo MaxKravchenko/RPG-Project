@@ -10,31 +10,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -17.6858
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -17.58
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3.3401046
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.2821549
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9593689
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 147.222
       objectReference: {fileID: 0}
     - target: {fileID: 718212105793055342, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -58,11 +58,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3494141850350494259, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: healthPoints
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3794271167908400092, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
       propertyPath: m_Speed
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935581388102576991, guid: 39a56441b65b49b45a9b8aba8dc7231f, type: 3}
+      propertyPath: weaponDamage
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -141,6 +145,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspisionTime: 3
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
+  waypointDwellTime: 3
 --- !u!1001 &6905575712041386291
 PrefabInstance:
   m_ObjectHideFlags: 0
