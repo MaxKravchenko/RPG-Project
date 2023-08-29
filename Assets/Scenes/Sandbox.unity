@@ -931,6 +931,8 @@ GameObject:
   - component: {fileID: 860281797}
   - component: {fileID: 860281798}
   - component: {fileID: 860281799}
+  - component: {fileID: 860281800}
+  - component: {fileID: 860281801}
   m_Layer: 2
   m_Name: Intro Sequence
   m_TagString: Untagged
@@ -1037,6 +1039,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7564b25283d0e0147a753d6a6dad7082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &860281800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860281794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb912933f057a04cbdacf15425d044f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &860281801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860281794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cb8eb5d3d8ce740af9e59dac0fadb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &862500777
@@ -1861,7 +1887,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357604315}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07598632, y: 0.87843215, z: -0.14912659, w: -0.44759846}
+  m_LocalRotation: {x: -0.075986326, y: 0.87843215, z: -0.1491266, w: -0.4475985}
   m_LocalPosition: {x: 2.69, y: 6.37, z: -7.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2187,7 +2213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659154774}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22316933, y: -0.080822736, z: 0.018571155, w: 0.9712457}
+  m_LocalRotation: {x: 0.22316934, y: -0.08082276, z: 0.018571163, w: 0.9712457}
   m_LocalPosition: {x: 0.69, y: 5.6, z: -4.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
