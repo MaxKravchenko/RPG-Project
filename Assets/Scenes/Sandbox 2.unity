@@ -255,6 +255,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 109515399132836229, guid: b999f5a7d289f914c8dae82d609bfe62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.15
+      objectReference: {fileID: 0}
     - target: {fileID: 555484962206405884, guid: b999f5a7d289f914c8dae82d609bfe62, type: 3}
       propertyPath: m_Name
       value: Portal
